@@ -1,0 +1,87 @@
+{
+  "nbformat": 4,
+  "nbformat_minor": 0,
+  "metadata": {
+    "colab": {
+      "name": "Untitled2.ipynb",
+      "provenance": [],
+      "authorship_tag": "ABX9TyPbSDsDXwf0kzUPXONjsPbC",
+      "include_colab_link": true
+    },
+    "kernelspec": {
+      "name": "python3",
+      "display_name": "Python 3"
+    },
+    "language_info": {
+      "name": "python"
+    }
+  },
+  "cells": [
+    {
+      "cell_type": "markdown",
+      "metadata": {
+        "id": "view-in-github",
+        "colab_type": "text"
+      },
+      "source": [
+        "<a href=\"https://colab.research.google.com/github/Himanshu-8830/Array-Task-My-captain/blob/main/my%20captain%20task%202\" target=\"_parent\"><img src=\"https://colab.research.google.com/assets/colab-badge.svg\" alt=\"Open In Colab\"/></a>"
+      ]
+    },
+    {
+      "cell_type": "code",
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "mr-4yXo6d50f",
+        "outputId": "dccb48cb-d06d-4b8a-e238-aa13ce41691e"
+      },
+      "source": [
+        "list1=[12,-7,5,64,-14]\n",
+        "for num1 in list1:\n",
+        "  if num1>=0:\n",
+        "    print([num1])"
+      ],
+      "execution_count": 7,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "text": [
+            "[12]\n",
+            "[5]\n",
+            "[64]\n"
+          ],
+          "name": "stdout"
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "Rkwew-83eVRP",
+        "outputId": "37dddb21-d3fe-4315-ae17-8fbb7da2e836"
+      },
+      "source": [
+        "list2=[12,14,-95,3]\n",
+        "for num2 in list2:\n",
+        "  if num2>=0:\n",
+        "    print([num2]) "
+      ],
+      "execution_count": 6,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "text": [
+            "[12]\n",
+            "[14]\n",
+            "[3]\n"
+          ],
+          "name": "stdout"
+        }
+      ]
+    }
+  ]
+}
